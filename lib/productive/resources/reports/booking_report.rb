@@ -1,6 +1,6 @@
 module Productive
   module Reports
-    class NewBookingReport < BaseAccount
+    class BookingReport < BaseAccount
       def self.table_name
         "reports/booking_reports"
       end
